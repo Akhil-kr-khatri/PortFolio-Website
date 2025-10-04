@@ -1,4 +1,4 @@
-import { ExternalLink, Github } from "lucide-react";
+import { Github } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
@@ -8,36 +8,31 @@ const Projects = () => {
       title: "Wander Hub",
       description: "A full-stack listing platform where users can discover and create listings. Features secure authentication with Passport, RESTful APIs, and Mapbox integration for location services.",
       tech: ["EJS", "Node.js", "Express.js", "MongoDB", "Passport"],
-      link: "#",
-      github: "#",
+      github: "https://github.com/Akhil-kr-khatri/Wonder-Hub",
     },
     {
       title: "Cloud Native ToDo App",
       description: "Full-stack cloud-native application deployed on Microsoft Azure with React frontend, Node.js backend, and MongoDB. Implemented load balancing across multiple VMs for high availability.",
       tech: ["React", "Node.js", "Express", "MongoDB", "Azure", "Load Balancer"],
-      link: "#",
-      github: "#",
+      github: "https://github.com/Akhil-kr-khatri/ToDos-List",
     },
     {
       title: "CI/CD Pipeline on AWS",
       description: "Automated GitOps workflow using Terraform for EKS provisioning, GitHub-Jenkins-ArgoCD pipeline for continuous deployment. Achieved zero manual intervention with Docker and AWS ECR integration.",
       tech: ["Terraform", "AWS ECR", "Jenkins", "ArgoCD", "Docker", "Kubernetes"],
-      link: "#",
-      github: "#",
+      github: "https://github.com/Akhil-kr-khatri/EKS-Cluster-Infrastructure",
     },
     {
       title: "ETL Pipeline on AWS",
       description: "Serverless ETL pipeline automating data extraction, transformation to Parquet format, and storage. Built with AWS S3, Lambda, Glue, and Athena for analytics and querying.",
       tech: ["AWS S3", "Lambda", "Glue", "Athena", "SNS"],
-      link: "#",
-      github: "#",
+      github: "https://drive.google.com/file/d/1zr1rPpxAraOu6bevl8mLwp-Qt1XJA7o5/view?usp=sharing",
     },
     {
       title: "CouponHub",
       description: "Java-based web application for managing and redeeming discount coupons. Implemented CRUD operations with JDBC and Oracle database, featuring admin controls and responsive JSP interface.",
       tech: ["Java", "JDBC", "Oracle", "JSP"],
-      link: "#",
-      github: "#",
+      github: "https://github.com/Akhil-kr-khatri/Coupon-Hub",
     },
   ];
 
@@ -74,23 +69,12 @@ const Projects = () => {
                 <Button
                   variant="outline"
                   size="sm"
-                  className="border-primary/50 hover:bg-primary/10"
-                  asChild
-                >
-                  <a href={project.link} target="_blank" rel="noopener noreferrer">
-                    <ExternalLink size={16} className="mr-2" />
-                    Live Demo
-                  </a>
-                </Button>
-                <Button
-                  variant="outline"
-                  size="sm"
                   className="border-accent/50 hover:bg-accent/10"
                   asChild
                 >
                   <a href={project.github} target="_blank" rel="noopener noreferrer">
                     <Github size={16} className="mr-2" />
-                    Code
+                    View Code
                   </a>
                 </Button>
               </div>

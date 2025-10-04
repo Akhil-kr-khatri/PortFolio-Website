@@ -10,15 +10,10 @@ const About = () => {
 
         <div className="glass-card rounded-2xl p-8 md:p-12 shadow-lg">
           <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-            I'm a passionate Full Stack Developer and Cloud Engineer with expertise in building
-            scalable web applications and implementing robust DevOps practices. Currently pursuing
-            B.Tech in Computer Engineering at Silicon University, I have hands-on experience with
-            cloud platforms like AWS and Azure, as well as modern frameworks like React and Node.js.
+            Hi, I'm Akhil Kumar Khatri 🎓, a recent graduate from Silicon Institute of Technology, passionate about building scalable applications and automating cloud-native DevOps workflows ☁️⚡. I have hands-on experience in full-stack development with React, Node.js, Express.js 💻, and in infrastructure automation & DevOps using Terraform, Jenkins, Docker, Kubernetes 🛠️, along with cloud platforms like AWS and Azure ☁️🌐.
           </p>
           <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-            My journey in tech has been enriched through internships at Ingenious Tech, where I've
-            worked on cloud infrastructure, CI/CD pipelines, and automation. I enjoy solving complex
-            problems and continuously learning new technologies to stay at the forefront of innovation.
+            I've worked on exciting projects like Wander Hub 🌍, a CI/CD pipeline on AWS 🚀, a Cloud-Native Todo App ✅, and a Serverless ETL Pipeline ⚡📦📊 that extracts, transforms, and loads data from S3 into Athena for analytics. I enjoy tackling challenging problems, building automated workflows, and creating systems that just work efficiently and reliably ⚡📊.
           </p>
 
           <div className="grid md:grid-cols-2 gap-6">

@@ -1,6 +1,7 @@
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-bg.jpg";
+import profileImage from "@/assets/profile.jpg";
 
 const Hero = () => {
   const scrollToSection = (id: string) => {
@@ -31,6 +32,15 @@ const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 z-10 text-center">
         <div className="animate-slide-up">
+          {/* Profile Image */}
+          <div className="mb-8 flex justify-center">
+            <img
+              src={profileImage}
+              alt="Akhil Kumar Khatri"
+              className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-primary/50 shadow-lg object-cover"
+            />
+          </div>
+          
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
             Hi, I'm <span className="gradient-text">Akhil Kumar Khatri</span>
           </h1>
