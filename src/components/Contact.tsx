@@ -43,14 +43,14 @@ const Contact = () => {
             </a>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <Button
               asChild
               className="bg-gradient-to-r from-primary to-accent hover:opacity-90 text-lg px-8"
               size="lg"
             >
               <a
-                href="https://linkedin.com/in/akhil-khatri-066a14219"
+                href="https://www.linkedin.com/in/akhil-kumar-khatri-04052a305"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -65,12 +65,32 @@ const Contact = () => {
               size="lg"
             >
               <a
-                href="https://github.com/akhilkhatri2024"
+                href="https://github.com/Akhil-kr-khatri"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Github className="mr-2" size={20} />
                 GitHub Profile
+              </a>
+            </Button>
+          </div>
+
+          <div className="text-center p-6 rounded-lg bg-gradient-to-r from-primary/10 to-accent/10 border border-primary/20">
+            <p className="text-lg font-semibold mb-2">📝 Check out my articles!</p>
+            <p className="text-muted-foreground mb-4">
+              I regularly share insights on cloud computing, DevOps, and web development on LinkedIn.
+            </p>
+            <Button
+              asChild
+              variant="outline"
+              className="border-accent text-accent hover:bg-accent/10"
+            >
+              <a
+                href="https://www.linkedin.com/in/akhil-kumar-khatri-04052a305/recent-activity/all/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Read My Articles
               </a>
             </Button>
           </div>

@@ -27,7 +27,7 @@ const About = () => {
               <div>
                 <h3 className="font-semibold text-lg mb-1">Education</h3>
                 <p className="text-muted-foreground">B.Tech - Computer Engineering</p>
-                <p className="text-muted-foreground text-sm">Silicon University (2021-2025)</p>
+                <p className="text-muted-foreground text-sm">Silicon University (Completed May 2025)</p>
               </div>
             </div>
 
