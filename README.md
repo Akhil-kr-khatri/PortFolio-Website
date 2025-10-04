@@ -1,73 +1,68 @@
-# Welcome to your Lovable project
+# 👋 Hi, I'm Akhil!
 
-## Project info
+Welcome to my **portfolio website**! Here, you can explore my projects, skills, and experience in **Full-Stack Development, Cloud, and DevOps**.
 
-**URL**: https://lovable.dev/projects/c7466f0e-2d73-44bf-8b70-5e8770bbbd71
+---
 
-## How can I edit this code?
+## 💻 About Me
+I am a **B.Tech Computer Engineering graduate** with strong hands-on experience in **Full-Stack Development and Cloud-Native DevOps practices**.  
+I enjoy building scalable applications, automating workflows, and exploring cutting-edge **AI tools**.
 
-There are several ways of editing your application.
+- 🌱 Currently learning advanced **Cloud & DevOps practices**  
+- ⚡ Interested in **AI, ML, and serverless architectures**  
+- 📫 Reach me at: akhilkhatri2024@gmail.com
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c7466f0e-2d73-44bf-8b70-5e8770bbbd71) and start prompting.
+## 🛠 Skills
 
-Changes made via Lovable will be committed automatically to this repo.
+**Languages:** Java, C, HTML, JavaScript  
+**Frameworks & Libraries:** React, Bootstrap, EJS, Node.js, Express.js  
+**Developer Tools:** Git, VS Code, Postman  
+**Database:** MySQL, Oracle, MongoDB  
+**DevOps & Automation Tools:** Terraform, Jenkins, ArgoCD, Docker, Kubernetes  
+**Cloud Platforms:** Microsoft Azure, AWS  
+**AI Tools:** ChatGPT, Lovable.dev, Gemini, NotebookLM
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🚀 Projects
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### **CI/CD Pipeline with Jenkins & Ansible**
+- Set up **fully automated CI/CD pipelines** for application deployment on AWS EC2  
+- Jenkins pulls code from GitHub and triggers Ansible playbooks to deploy applications  
+- **Technologies Used:** Jenkins, Ansible, AWS EC2, Git, Shell Scripting  
 
-Follow these steps:
+### **ETL Pipeline on AWS**
+- Built a **serverless ETL pipeline** using **S3, SNS, Lambda, and Glue**  
+- Raw data uploaded to S3 triggers an SNS notification, invoking Lambda to orchestrate Glue jobs  
+- Transformed data stored in destination S3 bucket, cataloged via **Glue Crawler**, and queried with **Athena, Redshift Spectrum, and QuickSight**  
+- **Technologies Used:** AWS S3, SNS, Lambda, Glue, Athena, Redshift Spectrum, QuickSight, Parquet, Serverless Architecture, AI Tools  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### **Wander Hub**
+- Built a **travel listing platform** for discovering and sharing unique spaces  
+- Implemented RESTful APIs and user authentication  
+- **Technologies Used:** Node.js, Express.js, MongoDB, EJS, Passport.js, HTML/CSS  
 
-# Step 3: Install the necessary dependencies.
-npm i
+### **Coupon Hub**
+- Developed a **Java-based web application** for coupon management  
+- Integrated secure user authentication and database management  
+- **Technologies Used:** Java, Spring Boot, MySQL, HTML, CSS, JavaScript  
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### **Portfolio Website**
+- Designed a **personal portfolio website** to showcase projects, skills, and experience  
+- Implemented responsive UI using **React and Bootstrap**  
+- **Technologies Used:** React, Bootstrap, HTML, CSS, JavaScript  
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 📫 Connect With Me
+- LinkedIn:
+- GitHub:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/c7466f0e-2d73-44bf-8b70-5e8770bbbd71) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## ⭐️ Fun Fact
+I enjoy exploring **AI tools** to enhance productivity and automate repetitive tasks like coding and deployment!

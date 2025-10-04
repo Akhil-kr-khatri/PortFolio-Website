@@ -5,10 +5,10 @@ import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
   server: {
-    host: "0.0.0.0",          // Allow all IPs
+    host: "0.0.0.0",
     port: 8080,
     strictPort: true,
-    allowedHosts: ["all"],    // ✅ Critical fix for Render deployment
+    allowedHosts: ["all"],
     fs: {
       allow: ["."],
     },
@@ -16,7 +16,7 @@ export default defineConfig(({ mode }) => ({
   preview: {
     host: "0.0.0.0",
     port: 8080,
-    allowedHosts: ["all"],    // ✅ Allow Render host during preview mode
+    allowedHosts: ["all"],
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
