@@ -27,11 +27,10 @@ const Experience = () => {
   ];
 
   const certifications = [
-    { name: "HackerRank - Java (Basic)", link: "#" },
-    { name: "HackerRank - SQL (Basic)", link: "#" },
-    { name: "HackerRank - SQL (Intermediate)", link: "#" },
-    { name: "Certified on Azure Masters - Ingenious", link: "#" },
-    { name: "Certified on DSA with Java - Apna College", link: "#" },
+    { name: "HackerRank - Java (Basic)", link: "https://www.hackerrank.com/certificates/21eac5788d46" },
+    { name: "HackerRank - SQL (Basic)", link: "https://www.hackerrank.com/certificates/5772ec0385d3" },
+    { name: "HackerRank - SQL (Intermediate)", link: "http://hackerrank.com/certificates/4c49223e317c" },
+    { name: "Certified on Azure Masters - Ingenious", link: "https://drive.google.com/file/d/1MoLnYuDqd5WILP6xjaWyh2J7TbcATzDS/view" },
   ];
 
   return (
