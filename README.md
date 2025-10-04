@@ -59,8 +59,8 @@ I enjoy building scalable applications, automating workflows, and exploring cutt
 ---
 
 ## 📫 Connect With Me
-- LinkedIn:
-- GitHub:
+- LinkedIn: https://www.linkedin.com/in/akhil-kumar-khatri-04052a305
+- GitHub: https://github.com/Akhil-kr-khatri/PortFolio-Website
 
 ---
 
