@@ -31,7 +31,7 @@ const About = () => {
               <div>
                 <h3 className="font-semibold text-lg mb-1">Location</h3>
                 <p className="text-muted-foreground">Bhubaneswar, Odisha</p>
-                <p className="text-muted-foreground text-sm">Open to remote opportunities</p>
+                <p className="text-muted-foreground text-sm">Open for opportunities</p>
               </div>
             </div>
           </div>
