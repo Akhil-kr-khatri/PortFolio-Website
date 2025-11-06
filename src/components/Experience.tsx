@@ -31,6 +31,10 @@ const Experience = () => {
     { name: "HackerRank - SQL (Basic)", link: "https://www.hackerrank.com/certificates/5772ec0385d3" },
     { name: "HackerRank - SQL (Intermediate)", link: "http://hackerrank.com/certificates/4c49223e317c" },
     { name: "Certified on Azure Masters - Ingenious", link: "https://drive.google.com/file/d/1MoLnYuDqd5WILP6xjaWyh2J7TbcATzDS/view" },
+    { 
+      name: "Oracle Cloud Infrastructure Foundations Associate", 
+      link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=9BE539482667D7B17065CFDEF511325484A25AF8057B036B325339AA17B6FA0C" 
+    },
   ];
 
   return (
