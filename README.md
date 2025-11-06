@@ -4,6 +4,8 @@ Welcome to my **portfolio website**! Here, you can explore my projects, skills, 
 
 **URL: https://portfolio-website-j0a8.onrender.com**
 
+**URL: https://akhil-kumar-khatri.netlify.app**
+
 ---
 
 ## 💻 About Me
