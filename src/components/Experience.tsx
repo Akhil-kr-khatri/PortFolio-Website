@@ -5,7 +5,7 @@ const Experience = () => {
     {
       role: "AWS & DevOps Trainee",
       company: "Ingenious Tech",
-      period: "June 2024 - October 2025",
+      period: "April 2025 - Current",
       description: [
         "Gained hands-on experience with AWS services including EC2, S3, IAM, and VPC",
         "Worked on DevOps practices, CI/CD pipelines, and automation using Jenkins",
@@ -16,7 +16,7 @@ const Experience = () => {
     {
       role: "Azure Masters Trainee",
       company: "Ingenious Tech",
-      period: "July 2023 - June 2024",
+      period: "January 2025 - April 2025",
       description: [
         "Deployed scalable websites using Azure App Services",
         "Configured Azure Load Balancer for efficient traffic distribution",
